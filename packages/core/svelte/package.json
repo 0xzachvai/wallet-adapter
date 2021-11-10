@@ -21,6 +21,7 @@
         "build": "yarn clean && tsc"
     },
     "peerDependencies": {
+        "@project-serum/anchor": "^0.18.0",
         "@solana/wallet-adapter-base": "^0.6.0",
         "@solana/wallet-adapter-wallets": "^0.10.1",
         "@solana/web3.js": "^1.29.2",
@@ -28,6 +29,7 @@
         "svelte": "^3.43.1"
     },
     "devDependencies": {
+        "@project-serum/anchor": "^0.18.0",
         "@solana/wallet-adapter-base": "^0.6.0",
         "@solana/wallet-adapter-wallets": "^0.10.1",
         "@solana/web3.js": "^1.29.2",

@@ -1,4 +1,8 @@
-export { default as WalletButton } from './WalletButton.svelte';
-export { default as WalletConnectButton } from './WalletConnectButton.svelte';
-export { default as WalletModal } from './WalletModal.svelte';
-export { default as WalletMultiButton } from './WalletMultiButton.svelte';
+import WalletButton  from './WalletButton.svelte';
+import WalletConnectButton  from './WalletConnectButton.svelte';
+import WalletModal from './WalletModal.svelte';
+import WalletMultiButton  from './WalletMultiButton.svelte';
+
+export {
+    WalletButton, WalletConnectButton, WalletModal, WalletMultiButton
+}
