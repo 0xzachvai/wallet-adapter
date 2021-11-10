@@ -1,8 +1,9 @@
 <script lang="ts">
-	import { walletStore } from '$utils/walletStore';
+	import { walletStore } from '@solana/wallet-adapter-svelte';
 	import WalletButton from './WalletButton.svelte';
 	import WalletConnectButton from './WalletConnectButton.svelte';
 	import WalletModal from './WalletModal.svelte';
+    import '../styles/styles.css';
 
 	$: ({ publicKey, wallet, disconnect, connect, select } = $walletStore);
 
